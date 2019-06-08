@@ -1,0 +1,6 @@
+0[initial=true, final=true];
+1[initial=false, final=false];
+
+0 --{a,b,c}--> 0;
+0 --{a}--> 1;
+1 --{b}--> 0;

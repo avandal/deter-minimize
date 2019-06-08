@@ -1,0 +1,15 @@
+1[x=295, y=77, initial=false, final=false];
+2[x=54, y=331, initial=false, final=false];
+3[x=358, y=312, initial=false, final=false];
+4[x=250, y=375, initial=false, final=true];
+0[x=86, y=86, initial=true, final=true];
+5[x=166, y=462, initial=false, final=true];
+
+1 --{a}[curve=30]--> 3;
+2 --{a}[curve=30]--> 4;
+3 --{a}[curve=30]--> 0;
+4 --{a}[curve=30]--> 5;
+4 --{b}[curve=30]--> 2;
+0 --{a}[curve=30]--> 1;
+0 --{b}[curve=30]--> 2;
+5 --{a,b}[curve=30]--> 2;

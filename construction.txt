@@ -1,0 +1,27 @@
+Frame
+	- TOP : titre
+		- JLabel titre
+		- JButton close
+	- CENTER : DrawPane
+	- WEST : Editor
+		- JTabbedPane
+			- Tab : EditState
+				- ListPane
+					- JLabel titre
+					- JScrollPane(JList)
+				- EditPane
+					- JLabel titre
+					- JScrollPane(JPanel)
+						Nom, etat initial etc.
+						Suppr
+			- Tab : EditLink
+				- ListPane
+					- JLabel titre
+					- JScrollPane(JList)
+				- EditPane
+					- JLabel titre
+					- JPanel
+						Debut, transition, fin, curve etc.
+						Suppr
+		- ActionPane
+			- 4 JButton
